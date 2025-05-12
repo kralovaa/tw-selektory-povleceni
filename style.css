@@ -1,0 +1,52 @@
+div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightgray; 
+}
+
+.warning {
+    background-color: yellow; 
+}
+
+.best-selling {
+    background-color: lightpink; 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.product {
+    background-color: lightblue; 
+    flex: 1 1 calc(33.333% - 20px); 
+    box-sizing: border-box; 
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+h1, h2, h3 {
+    color: rgb(1, 100, 200);
+}
+
+
+a {
+    display: inline-block;
+    background-color: rgba(0, 0, 255, 0.5); 
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.review {
+    border: 1px dashed black; 
+    background-color: lightgray 
+}
+
+img {
+    height: 300px;
+    width: auto; 
+    object-fit: cover;
+}
